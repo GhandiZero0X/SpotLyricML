@@ -28,5 +28,21 @@ Proyek ini adalah aplikasi Python sederhana yang memungkinkan pengguna untuk men
 1. **Clone Repository**:
 
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/GhandiZero0X/SpotLyricML.git
 
+2. **Masukkan Client ID dan Client Secret:**:
+    Gantilah client_id dan client_secret di dalam kode dengan kredensial Spotify Anda. Untuk mendapatkan kredensial, kunjungi
+    ```bash
+    https://developer.spotify.com/dashboard
+
+3. **Install Dependencies:**:
+    ```bash
+    pip install spotipy
+
+## Cara Menggunakan
+1. Jalankan skrip Python:
+    ```bash
+    python spotify_ml.py
+2. Masukkan query pencarian (judul lagu, artis, atau album) saat diminta.
+3. Pilih nomor lagu dari daftar hasil pencarian untuk memutarnya di Spotify.
+4. Ketik 0 untuk kembali ke pencarian atau ketik exit untuk keluar dari aplikasi.
