@@ -25,7 +25,7 @@ def main():
     spotify_api = SpotifyAPI(client_id, client_secret)
     
     while True:
-        query = input("Enter your search query (song title, artist, or album) or 'exit' to quit: ").strip()
+        query = input("Enter your search query (song title, artist, or album, separated by commas) or 'exit' to quit: ").strip()
         
         if query.lower() == 'exit':
             print("Exiting the program.")
